@@ -1,0 +1,30 @@
+{
+  "name": "dyn-dashboards",
+  "version": "1.0.0",
+  "description": "Un ensemble de composants au design soigné et des modèles de tableaux de bord prêts à l'emploi que vous pouvez personnaliser, étendre et développer. Commencez par là, puis adaptez-le à vos besoins. Open Source. Code ouvert.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "workspaces": [
+    "dashboards/*",
+    "packages/*",
+    "sdk/*"
+  ],
+    "scripts": {
+    "build": "npm run build --workspaces",
+    "dev": "npm run dev --workspaces"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akimlecalligraphe/sdk-dashboards.git"
+  },
+  "keywords": [],
+  "author": "Karim BELLO YESSOUFOU",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/akimlecalligraphe/sdk-dashboards/issues"
+  },
+  "homepage": "https://github.com/akimlecalligraphe/sdk-dashboards#readme"
+}
